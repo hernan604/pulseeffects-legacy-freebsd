@@ -1,6 +1,7 @@
 #include "calibration_signals.hpp"
 #include <glibmm/main.h>
 #include <boost/math/interpolators/cubic_b_spline.hpp>
+#include <boost/math/special_functions/trunc.hpp>
 #include "util.hpp"
 
 namespace {

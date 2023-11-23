@@ -1,6 +1,7 @@
 #include "calibration_mic.hpp"
 #include <glibmm/main.h>
 #include <boost/math/interpolators/cubic_b_spline.hpp>
+#include <boost/math/special_functions/trunc.hpp>
 #include "util.hpp"
 
 namespace {
@@ -24,10 +25,10 @@ void on_message_element(const GstBus* gst_bus, GstMessage* message, CalibrationM
     magnitudes = gst_structure_get_value(s, "magnitude");
 
     for (uint n = 0; n < cs->spectrum_freqs.size(); n++) {
-      cs->spectrum_mag_tmp[n] = g_value_get_float(gst_value_list_get_value(magnitudes, n));
+      cs->spectrum_mag_tmp[n] = g_value_get_double(gst_value_list_get_value(magnitudes, n));
     }
 
-    boost::math::cubic_b_spline<float> spline(cs->spectrum_mag_tmp.begin(), cs->spectrum_mag_tmp.end(), cs->spline_f0,
+    boost::math::cubic_b_spline<double> spline(cs->spectrum_mag_tmp.begin(), cs->spectrum_mag_tmp.end(), cs->spline_f0,
                                               cs->spline_df);
 
     for (uint n = 0; n < cs->spectrum_mag.size(); n++) {

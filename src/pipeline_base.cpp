@@ -3,6 +3,7 @@
 #include <gobject/gvaluecollector.h>
 #include <sys/resource.h>
 #include <boost/math/interpolators/cubic_b_spline.hpp>
+#include <boost/math/special_functions/trunc.hpp>
 #include "config.h"
 #include "util.hpp"
 
@@ -117,11 +118,11 @@ void on_message_element(const GstBus* gst_bus, GstMessage* message, PipelineBase
     magnitudes = gst_structure_get_value(s, "magnitude");
 
     for (uint n = 0; n < pb->spectrum_freqs.size(); n++) {
-      pb->spectrum_mag_tmp[n] = g_value_get_float(gst_value_list_get_value(magnitudes, n));
+      pb->spectrum_mag_tmp[n] = g_value_get_double(gst_value_list_get_value(magnitudes, n));
     }
 
     try {
-      boost::math::cubic_b_spline<float> spline(pb->spectrum_mag_tmp.begin(), pb->spectrum_mag_tmp.end(), pb->spline_f0,
+      boost::math::cubic_b_spline<double> spline(pb->spectrum_mag_tmp.begin(), pb->spectrum_mag_tmp.end(), pb->spline_f0,
                                                 pb->spline_df);
 
       for (uint n = 0; n < pb->spectrum_mag.size(); n++) {

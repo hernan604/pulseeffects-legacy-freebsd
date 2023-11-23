@@ -3,6 +3,7 @@
 #include <glibmm.h>
 #include <boost/filesystem.hpp>
 #include "util.hpp"
+#include <fstream>
 
 namespace {
 
@@ -148,7 +149,7 @@ bool GeneralSettingsUi::on_enable_autostart(bool state) {
 
   if (state) {
     if (!boost::filesystem::exists(autostart_file)) {
-      boost::filesystem::ofstream ofs{autostart_file};
+      std::ofstream ofs(autostart_file.string());
 
       ofs << "[Desktop Entry]\n";
       ofs << "Name=PulseEffects\n";
