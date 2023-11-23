@@ -1,0 +1,1656 @@
+# This is Indonesia translate file for PE. We are need your help to completely translate this project. You can translate PuleEffect's help file to Indonesian to develop this project. If you any question about translating process, just send email that I have been desribed below. But if you want to support such as reporting any bugs, go ahead to github page @ https://github.com/wwmm/pulseeffects/ 
+# Copyright (C) 2018
+# This file is distributed under the same license as the PulseEffects package.
+# Dika Muhamad A. <ardumpl_AT_gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pulseeffects\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-10 13:00-0300\n"
+"PO-Revision-Date: 2019-01-17 18:30+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/ui/application.glade:41 src/calibration_ui.cpp:39
+#: src/calibration_ui.cpp:164
+msgid "Test Signals"
+msgstr "Uji Sinyal"
+
+#: data/ui/application.glade:63
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:5
+#: data/com.github.wwmm.pulseeffects.desktop.in:3
+msgid "PulseEffects"
+msgstr "PulseEffects"
+
+#: data/ui/application.glade:135 data/ui/general_settings.glade:107
+#: data/ui/equalizer.glade:253
+msgid "Settings"
+msgstr "Setelan"
+
+#: data/ui/application.glade:157
+msgid "Help"
+msgstr "Bantuan"
+
+#: data/ui/application.glade:180 data/ui/filter.glade:204
+#: data/ui/equalizer.glade:309 data/ui/reverb.glade:284
+#: data/ui/crossfeed.glade:47 src/presets_menu_ui.cpp:115
+#: src/presets_menu_ui.cpp:274 src/presets_menu_ui.cpp:291
+msgid "Presets"
+msgstr "Preset"
+
+#: data/ui/spectrum_settings.glade:59
+#, fuzzy
+msgid "Show Spectrum"
+msgstr "Spektrum"
+
+#: data/ui/spectrum_settings.glade:84
+msgid "Fill"
+msgstr "Spektrum Batangan"
+
+#: data/ui/spectrum_settings.glade:109
+msgid "Border"
+msgstr ""
+
+#: data/ui/spectrum_settings.glade:134
+msgid "Use Custom Color"
+msgstr "Gunakan Warna Kustom"
+
+#: data/ui/spectrum_settings.glade:159
+msgid "Use Gradient"
+msgstr "Terapkan Gradien warna"
+
+#: data/ui/spectrum_settings.glade:185
+msgid "Spectrum Color"
+msgstr "Warna Spektrum"
+
+#: data/ui/spectrum_settings.glade:213
+msgid "Gradient Color"
+msgstr "Warna Gradien"
+
+#: data/ui/spectrum_settings.glade:241
+#, fuzzy
+msgid "Spectrum Type"
+msgstr "Spektrum"
+
+#: data/ui/spectrum_settings.glade:255
+msgid "Bars"
+msgstr "Batang"
+
+#: data/ui/spectrum_settings.glade:256
+msgid "Lines"
+msgstr ""
+
+#: data/ui/spectrum_settings.glade:271
+msgid "Points"
+msgstr "Titik"
+
+#: data/ui/spectrum_settings.glade:303
+msgid "Height"
+msgstr "Tinggi"
+
+#: data/ui/spectrum_settings.glade:336
+msgid "Scale"
+msgstr "Skala"
+
+#: data/ui/spectrum_settings.glade:369
+msgid "Exponent"
+msgstr "Eksponen"
+
+#: data/ui/spectrum_settings.glade:402
+msgid "Sampling"
+msgstr "Atur Sampling"
+
+#: data/ui/spectrum_settings.glade:433
+#, fuzzy
+msgid "Line Width"
+msgstr "Lebar"
+
+#: data/ui/pulse_settings.glade:98 data/ui/pulse_settings.glade:387
+msgid "Use Default"
+msgstr "Gunakan Aturan Bawaan"
+
+#: data/ui/pulse_settings.glade:150 data/ui/pulse_settings.glade:438
+msgid "Block Size"
+msgstr "Ukuran Blok"
+
+#: data/ui/pulse_settings.glade:195 data/ui/pulse_settings.glade:483
+msgid "Pipeline Input"
+msgstr ""
+
+#: data/ui/pulse_settings.glade:209 data/ui/pulse_settings.glade:299
+#: data/ui/pulse_settings.glade:497 data/ui/pulse_settings.glade:587
+#: data/ui/app_info.glade:159
+msgid "Buffer"
+msgstr "Ukuran Penyangga"
+
+#: data/ui/pulse_settings.glade:242 data/ui/pulse_settings.glade:332
+#: data/ui/pulse_settings.glade:510 data/ui/pulse_settings.glade:600
+#: data/ui/app_info.glade:186
+msgid "Latency"
+msgstr "Besar Latensi"
+
+#: data/ui/pulse_settings.glade:285 data/ui/pulse_settings.glade:573
+msgid "Pipeline Output"
+msgstr ""
+
+#: data/ui/pulse_settings.glade:368 data/ui/blacklist_settings.glade:130
+msgid "Input Effects"
+msgstr "Efek Input"
+
+#: data/ui/pulse_settings.glade:656 data/ui/blacklist_settings.glade:224
+msgid "Output Effects"
+msgstr "Efek Luaran"
+
+#: data/ui/blacklist_settings.glade:53 data/ui/blacklist_settings.glade:147
+#: data/ui/presets_menu.glade:68 data/ui/presets_menu.glade:177
+msgid "Create Preset"
+msgstr "Buat Preset"
+
+#: data/ui/blacklist_settings.glade:72 data/ui/blacklist_settings.glade:166
+#: data/ui/pulse_info.glade:49 data/ui/presets_menu.glade:55
+#: data/ui/presets_menu.glade:164
+msgid "Name"
+msgstr "Nama"
+
+#: data/ui/general_settings.glade:31
+msgid "Start Service at Login"
+msgstr "Mulai Layanan Saat Startup"
+
+#: data/ui/general_settings.glade:56
+msgid "Process All Outputs"
+msgstr "Proses Semua Output"
+
+#: data/ui/general_settings.glade:81
+msgid "Use Dark Theme"
+msgstr "Gunakan Tema Gelap"
+
+#: data/ui/general_settings.glade:116 data/ui/equalizer_band.glade:183
+#: data/ui/equalizer_band.glade:229
+msgid "Reset"
+msgstr "Atur Ulang"
+
+#: data/ui/general_settings.glade:133 data/ui/general_settings.glade:206
+msgid "Niceness"
+msgstr "Proritas Sempurna"
+
+#: data/ui/general_settings.glade:134
+msgid "Real Time"
+msgstr "Waktu Real Time"
+
+#: data/ui/general_settings.glade:135
+msgid "None"
+msgstr "Biarkan"
+
+#: data/ui/general_settings.glade:151
+msgid "Priority Type"
+msgstr "Atur Prioritas"
+
+#: data/ui/general_settings.glade:161
+msgid "About"
+msgstr "Tentang PulseEffects"
+
+#: data/ui/general_settings.glade:180
+msgid "Process All Inputs"
+msgstr "Proses Semua Input"
+
+#: data/ui/general_settings.glade:232
+msgid "Priority"
+msgstr "Atur Prioritas"
+
+#: data/ui/about.glade.in:11
+msgid "Audio effects for PulseAudio applications"
+msgstr "Terapkan Efek Suara via PulseAudio"
+
+#: data/ui/app_info.glade:51
+msgid "Format"
+msgstr "Format Resampling"
+
+#: data/ui/app_info.glade:78 data/ui/convolver.glade:257
+msgid "Rate"
+msgstr "Rataan Frekuensi"
+
+#: data/ui/app_info.glade:105 data/ui/pulse_info.glade:238
+#: data/ui/stereo_tools.glade:629
+msgid "Channels"
+msgstr "Total Kanal"
+
+#: data/ui/app_info.glade:132
+msgid "Resampler"
+msgstr "Modus Penyampling"
+
+#: data/ui/app_info.glade:213
+msgid "State"
+msgstr "Status"
+
+#: data/ui/pulse_info.glade:76
+msgid "Version"
+msgstr ""
+
+#: data/ui/pulse_info.glade:103
+#, fuzzy
+msgid "Default Sink"
+msgstr "Aturan Bawaan"
+
+#: data/ui/pulse_info.glade:115
+#, fuzzy
+msgid "Default Source"
+msgstr "Aturan Bawaan"
+
+#: data/ui/pulse_info.glade:157
+msgid "Protocol"
+msgstr ""
+
+#: data/ui/pulse_info.glade:184
+msgid "Default Sample Format"
+msgstr ""
+
+#: data/ui/pulse_info.glade:211
+msgid "Default Sampling Rate"
+msgstr ""
+
+#: data/ui/pulse_info.glade:265
+#, fuzzy
+msgid "Channel Mapping"
+msgstr "Total Kanal"
+
+#: data/ui/pulse_info.glade:290
+msgid "Server"
+msgstr ""
+
+#: data/ui/pulse_info.glade:335
+msgid "Modules"
+msgstr ""
+
+#: data/ui/pulse_info.glade:381
+#, fuzzy
+msgid "Clients"
+msgstr "Sen"
+
+#: data/ui/pulse_info.glade:444
+msgid "File"
+msgstr ""
+
+#: data/ui/pulse_info.glade:454
+#, fuzzy
+msgid "Configuration"
+msgstr "Durasi"
+
+#: data/ui/pulse_info.glade:487
+#, fuzzy
+msgid "Resamplers"
+msgstr "Modus Penyampling"
+
+#: data/ui/autogain.glade:24
+msgid "Auto Gain"
+msgstr "Gain Otomatis"
+
+#: data/ui/autogain.glade:145
+msgid "Reset History"
+msgstr ""
+
+#: data/ui/autogain.glade:157
+#, fuzzy
+msgid "Detect Silence"
+msgstr "Deteksi"
+
+#: data/ui/autogain.glade:188 data/ui/autogain.glade:567
+msgid "Momentary"
+msgstr "Efek Sejenak"
+
+#: data/ui/autogain.glade:203 data/ui/autogain.glade:580
+msgid "Short Term"
+msgstr "Waktu Singkat"
+
+#: data/ui/autogain.glade:218 data/ui/autogain.glade:593
+msgid "Integrated"
+msgstr "Terintegrasi"
+
+#: data/ui/autogain.glade:289
+msgid "Weights"
+msgstr "Tinggi"
+
+#: data/ui/autogain.glade:323
+msgid "Target"
+msgstr "Target"
+
+#: data/ui/autogain.glade:354 data/ui/autogain.glade:546
+#: data/ui/limiter.glade:365 data/ui/compressor.glade:718
+#: data/ui/multiband_compressor.glade:1958 data/ui/filter.glade:368
+#: data/ui/equalizer.glade:516 data/ui/reverb.glade:630
+#: data/ui/bass_enhancer.glade:479 data/ui/exciter.glade:483
+#: data/ui/stereo_tools.glade:299 data/ui/stereo_tools.glade:804
+#: data/ui/crossfeed.glade:202 data/ui/maximizer.glade:239
+#: data/ui/loudness.glade:244 data/ui/gate.glade:487
+#: data/ui/multiband_gate.glade:2107 data/ui/deesser.glade:568
+#: data/ui/convolver.glade:477 data/ui/crystalizer.glade:228
+#: data/ui/pitch.glade:322 data/ui/webrtc.glade:624 data/ui/delay.glade:210
+#: data/ui/presets_menu.glade:255
+msgid "Input"
+msgstr "Masukan"
+
+#: data/ui/autogain.glade:369 data/ui/autogain.glade:802
+#: data/ui/limiter.glade:380 data/ui/compressor.glade:733
+#: data/ui/multiband_compressor.glade:753
+#: data/ui/multiband_compressor.glade:1130
+#: data/ui/multiband_compressor.glade:1508
+#: data/ui/multiband_compressor.glade:1886
+#: data/ui/multiband_compressor.glade:1973 data/ui/filter.glade:383
+#: data/ui/equalizer.glade:531 data/ui/reverb.glade:645
+#: data/ui/bass_enhancer.glade:511 data/ui/exciter.glade:515
+#: data/ui/stereo_tools.glade:776 data/ui/stereo_tools.glade:818
+#: data/ui/crossfeed.glade:217 data/ui/maximizer.glade:254
+#: data/ui/loudness.glade:162 data/ui/loudness.glade:259 data/ui/gate.glade:502
+#: data/ui/multiband_gate.glade:806 data/ui/multiband_gate.glade:1215
+#: data/ui/multiband_gate.glade:1625 data/ui/multiband_gate.glade:2035
+#: data/ui/multiband_gate.glade:2122 data/ui/deesser.glade:583
+#: data/ui/convolver.glade:492 data/ui/crystalizer.glade:243
+#: data/ui/pitch.glade:336 data/ui/webrtc.glade:639 data/ui/delay.glade:225
+#: data/ui/presets_menu.glade:146
+msgid "Output"
+msgstr "Output"
+
+#: data/ui/autogain.glade:684
+msgid "Relative"
+msgstr "Relatif"
+
+#: data/ui/autogain.glade:697 data/ui/compressor.glade:900
+#: data/ui/deesser.glade:295
+msgid "Gain"
+msgstr "Besar Gain"
+
+#: data/ui/autogain.glade:763 data/ui/loudness.glade:24
+#: data/ui/loudness.glade:128
+msgid "Loudness"
+msgstr "Kelantangan"
+
+#: data/ui/autogain.glade:816
+msgid "Range"
+msgstr "Rentang"
+
+#: data/ui/limiter.glade:30 data/ui/webrtc.glade:395
+msgid "Limiter"
+msgstr "Pembatas"
+
+#: data/ui/limiter.glade:149
+msgid "Input Gain"
+msgstr "Gain Input"
+
+#: data/ui/limiter.glade:182
+msgid "Limit"
+msgstr "Batas"
+
+#: data/ui/limiter.glade:237 data/ui/compressor.glade:373
+#: data/ui/multiband_compressor.glade:534
+#: data/ui/multiband_compressor.glade:907
+#: data/ui/multiband_compressor.glade:1285
+#: data/ui/multiband_compressor.glade:1663 data/ui/maximizer.glade:213
+#: data/ui/gate.glade:299 data/ui/multiband_gate.glade:554
+#: data/ui/multiband_gate.glade:960 data/ui/multiband_gate.glade:1370
+#: data/ui/multiband_gate.glade:1780
+msgid "Release"
+msgstr "Rilis"
+
+#: data/ui/limiter.glade:250 data/ui/compressor.glade:570
+msgid "Lookahead"
+msgstr "Lookahead"
+
+#: data/ui/limiter.glade:285
+msgid "Oversampling"
+msgstr "Peningkat Sampling"
+
+#: data/ui/limiter.glade:334
+msgid "ASC"
+msgstr "ASC"
+
+#: data/ui/limiter.glade:395
+msgid "Attenuation"
+msgstr "Atenuasi"
+
+#: data/ui/compressor.glade:30 data/ui/compressor.glade:442
+#: data/ui/webrtc.glade:482 data/com.github.wwmm.pulseeffects.appdata.xml.in:52
+msgid "Compressor"
+msgstr "Kompresor"
+
+#: data/ui/compressor.glade:239 data/ui/multiband_compressor.glade:568
+#: data/ui/multiband_compressor.glade:942
+#: data/ui/multiband_compressor.glade:1320
+#: data/ui/multiband_compressor.glade:1698 data/ui/maximizer.glade:126
+#: data/ui/gate.glade:333 data/ui/multiband_gate.glade:588
+#: data/ui/multiband_gate.glade:995 data/ui/multiband_gate.glade:1405
+#: data/ui/multiband_gate.glade:1815 data/ui/deesser.glade:458
+msgid "Threshold"
+msgstr "Ambang Batas"
+
+#: data/ui/compressor.glade:272 data/ui/multiband_compressor.glade:601
+#: data/ui/multiband_compressor.glade:976
+#: data/ui/multiband_compressor.glade:1354
+#: data/ui/multiband_compressor.glade:1732 data/ui/gate.glade:366
+#: data/ui/multiband_gate.glade:621 data/ui/multiband_gate.glade:1029
+#: data/ui/multiband_gate.glade:1439 data/ui/multiband_gate.glade:1849
+#: data/ui/deesser.glade:491
+msgid "Ratio"
+msgstr "Rasio"
+
+#: data/ui/compressor.glade:304 data/ui/multiband_compressor.glade:633
+#: data/ui/multiband_compressor.glade:1009
+#: data/ui/multiband_compressor.glade:1387
+#: data/ui/multiband_compressor.glade:1765 data/ui/gate.glade:398
+#: data/ui/multiband_gate.glade:653 data/ui/multiband_gate.glade:1062
+#: data/ui/multiband_gate.glade:1472 data/ui/multiband_gate.glade:1882
+msgid "Knee"
+msgstr "Knee"
+
+#: data/ui/compressor.glade:338 data/ui/multiband_compressor.glade:667
+#: data/ui/multiband_compressor.glade:1044
+#: data/ui/multiband_compressor.glade:1422
+#: data/ui/multiband_compressor.glade:1800 data/ui/gate.glade:432
+#: data/ui/multiband_gate.glade:687 data/ui/multiband_gate.glade:1097
+#: data/ui/multiband_gate.glade:1507 data/ui/multiband_gate.glade:1917
+#: data/ui/deesser.glade:522
+msgid "Makeup"
+msgstr "Penguatan"
+
+#: data/ui/compressor.glade:386 data/ui/multiband_compressor.glade:500
+#: data/ui/multiband_compressor.glade:872
+#: data/ui/multiband_compressor.glade:1250
+#: data/ui/multiband_compressor.glade:1628 data/ui/gate.glade:265
+#: data/ui/multiband_gate.glade:520 data/ui/multiband_gate.glade:925
+#: data/ui/multiband_gate.glade:1335 data/ui/multiband_gate.glade:1745
+msgid "Attack"
+msgstr "Attack"
+
+#: data/ui/compressor.glade:413
+msgid "Downward"
+msgstr "Kompresi Menekan"
+
+#: data/ui/compressor.glade:414
+msgid "Upward"
+msgstr "Kompresi Mengangkat"
+
+#: data/ui/compressor.glade:426
+#, fuzzy
+msgid "Compression Mode"
+msgstr "Modus Kompresi"
+
+#: data/ui/compressor.glade:454 data/ui/bass_enhancer.glade:145
+#: data/ui/exciter.glade:145 data/ui/deesser.glade:162
+msgid "Listen"
+msgstr "Uji Pengaturan"
+
+#: data/ui/compressor.glade:500
+#, fuzzy
+msgid "Pre-amplification"
+msgstr "Pra-Amplifikasi"
+
+#: data/ui/compressor.glade:535
+msgid "Reactivity"
+msgstr "Pengaktifan Ulang"
+
+#: data/ui/compressor.glade:583
+msgid "Feed-forward"
+msgstr "Feed-forward"
+
+#: data/ui/compressor.glade:584
+#, fuzzy
+msgid "Feed-back"
+msgstr "Volume Penyuapan"
+
+#: data/ui/compressor.glade:598 data/ui/equalizer_band.glade:48
+msgid "Type"
+msgstr "Tipe"
+
+#: data/ui/compressor.glade:612 data/ui/multiband_compressor.glade:473
+#: data/ui/multiband_compressor.glade:845
+#: data/ui/multiband_compressor.glade:1223
+#: data/ui/multiband_compressor.glade:1601 data/ui/gate.glade:220
+#: data/ui/multiband_gate.glade:493 data/ui/multiband_gate.glade:898
+#: data/ui/multiband_gate.glade:1308 data/ui/multiband_gate.glade:1718
+#: data/ui/deesser.glade:218 data/ui/deesser.glade:328
+msgid "Peak"
+msgstr "Peak"
+
+#: data/ui/compressor.glade:613 data/ui/multiband_compressor.glade:472
+#: data/ui/multiband_compressor.glade:844
+#: data/ui/multiband_compressor.glade:1222
+#: data/ui/multiband_compressor.glade:1600 data/ui/gate.glade:219
+#: data/ui/multiband_gate.glade:492 data/ui/multiband_gate.glade:897
+#: data/ui/multiband_gate.glade:1307 data/ui/multiband_gate.glade:1717
+#: data/ui/deesser.glade:217
+msgid "RMS"
+msgstr "RMS"
+
+#: data/ui/compressor.glade:614
+#, fuzzy
+msgid "Low-Pass"
+msgstr "Band Rendah"
+
+#: data/ui/compressor.glade:615
+msgid "Uniform"
+msgstr "Uniform"
+
+#: data/ui/compressor.glade:629 data/ui/multiband_compressor.glade:283
+#: data/ui/equalizer.glade:200 data/ui/equalizer_band.glade:79
+#: data/ui/stereo_tools.glade:461 data/ui/multiband_gate.glade:303
+#: data/ui/deesser.glade:204 data/ui/webrtc.glade:350
+msgid "Mode"
+msgstr "Modus"
+
+#: data/ui/compressor.glade:643
+#, fuzzy
+msgid "Middle"
+msgstr "Volume Kanal Tengah"
+
+#: data/ui/compressor.glade:644
+msgid "Side"
+msgstr "Volume Kanal Sisi"
+
+#: data/ui/compressor.glade:645 data/ui/equalizer.glade:448
+#: data/ui/stereo_tools.glade:524 data/ui/delay.glade:131
+msgid "Left"
+msgstr "Kiri"
+
+#: data/ui/compressor.glade:646 data/ui/equalizer.glade:489
+#: data/ui/stereo_tools.glade:596 data/ui/delay.glade:163
+msgid "Right"
+msgstr "Kanan"
+
+#: data/ui/compressor.glade:660
+msgid "Source"
+msgstr "Sumber"
+
+#: data/ui/compressor.glade:676 data/ui/compressor.glade:913
+msgid "Sidechain"
+msgstr "Sidechain"
+
+#: data/ui/compressor.glade:989
+msgid "Curve"
+msgstr "Bentuk Kurva"
+
+#: data/ui/multiband_compressor.glade:70
+msgid "Multiband Compressor"
+msgstr "Kompresor Multiband"
+
+#: data/ui/multiband_compressor.glade:297 data/ui/multiband_gate.glade:317
+msgid "LR4"
+msgstr "LR4"
+
+#: data/ui/multiband_compressor.glade:298 data/ui/multiband_gate.glade:318
+msgid "LR8"
+msgstr "LR8"
+
+#: data/ui/multiband_compressor.glade:312 data/ui/multiband_gate.glade:332
+msgid "Split 1/2"
+msgstr "Split 1/2"
+
+#: data/ui/multiband_compressor.glade:325 data/ui/multiband_gate.glade:345
+msgid "Split 2/3"
+msgstr "Split 2/3"
+
+#: data/ui/multiband_compressor.glade:338 data/ui/multiband_gate.glade:358
+msgid "Split 3/4"
+msgstr "Split 3/4"
+
+#: data/ui/multiband_compressor.glade:442
+#: data/ui/multiband_compressor.glade:814
+#: data/ui/multiband_compressor.glade:1192
+#: data/ui/multiband_compressor.glade:1570 data/ui/multiband_gate.glade:462
+#: data/ui/multiband_gate.glade:867 data/ui/multiband_gate.glade:1277
+#: data/ui/multiband_gate.glade:1687 data/ui/crystalizer_band.glade:39
+msgid "Bypass"
+msgstr "Bypass"
+
+#: data/ui/multiband_compressor.glade:455
+#: data/ui/multiband_compressor.glade:827
+#: data/ui/multiband_compressor.glade:1205
+#: data/ui/multiband_compressor.glade:1583 data/ui/equalizer_band.glade:302
+#: data/ui/multiband_gate.glade:475 data/ui/multiband_gate.glade:880
+#: data/ui/multiband_gate.glade:1290 data/ui/multiband_gate.glade:1700
+msgid "Solo"
+msgstr "Solo"
+
+#: data/ui/multiband_compressor.glade:713
+#: data/ui/multiband_compressor.glade:1090
+#: data/ui/multiband_compressor.glade:1468
+#: data/ui/multiband_compressor.glade:1846
+msgid "Compression"
+msgstr "Kompresi"
+
+#: data/ui/multiband_compressor.glade:796 data/ui/multiband_gate.glade:849
+msgid "Sub Band"
+msgstr "Band Sub"
+
+#: data/ui/multiband_compressor.glade:1173 data/ui/multiband_gate.glade:1258
+msgid "Low Band"
+msgstr "Band Rendah"
+
+#: data/ui/multiband_compressor.glade:1551 data/ui/multiband_gate.glade:1668
+msgid "Mid Band"
+msgstr "Band Tengah"
+
+#: data/ui/multiband_compressor.glade:1929 data/ui/multiband_gate.glade:2078
+msgid "High Band"
+msgstr "Band Tinggi"
+
+#: data/ui/filter.glade:31
+msgid "Filter"
+msgstr "Filter"
+
+#: data/ui/filter.glade:123
+msgid "Muted"
+msgstr "Dibungkam"
+
+#: data/ui/filter.glade:135 data/ui/reverb.glade:209
+msgid "Disco"
+msgstr "Disko"
+
+#: data/ui/filter.glade:147
+msgid "Distant Headphones"
+msgstr "Headphone Berjarak"
+
+#: data/ui/filter.glade:159 data/ui/reverb.glade:235 data/ui/crossfeed.glade:72
+msgid "Default"
+msgstr "Aturan Bawaan"
+
+#: data/ui/filter.glade:220
+msgid "12dB/oct Lowpass"
+msgstr "Lowpass 12dB/oktaf"
+
+#: data/ui/filter.glade:221
+msgid "24dB/oct Lowpass"
+msgstr "Lowpass 24dB/oktaf"
+
+#: data/ui/filter.glade:222
+msgid "36dB/oct Lowpass"
+msgstr "Lowpass 36dB/oktaf"
+
+#: data/ui/filter.glade:223
+msgid "12dB/oct Highpass"
+msgstr "Highpass 12dB/oktaf"
+
+#: data/ui/filter.glade:224
+msgid "24dB/oct Highpass"
+msgstr "Highpass 24dB/oktaf"
+
+#: data/ui/filter.glade:225
+msgid "36dB/oct Highpass"
+msgstr "Highpass 36dB/oktaf"
+
+#: data/ui/filter.glade:226
+msgid "6dB/oct Bandpass"
+msgstr "Bandpass 6dB/oktaf"
+
+#: data/ui/filter.glade:227
+msgid "12dB/oct Bandpass"
+msgstr "Bandpass 12dB/oktaf"
+
+#: data/ui/filter.glade:228
+msgid "18dB/oct Bandpass"
+msgstr "Bandpass 18dB/oktaf"
+
+#: data/ui/filter.glade:229
+msgid "6dB/oct Bandreject"
+msgstr "Bandreject 6dB/oktaf"
+
+#: data/ui/filter.glade:230
+msgid "12dB/oct Bandreject"
+msgstr "Bandpass 12dB/oktaf"
+
+#: data/ui/filter.glade:231
+msgid "18dB/oct Bandreject"
+msgstr "Bandpass 18dB/oktaf"
+
+#: data/ui/filter.glade:254 data/ui/equalizer_band.glade:152
+#: data/ui/calibration_signals.glade:32
+msgid "Frequency"
+msgstr "Frekuensi"
+
+#: data/ui/filter.glade:288 data/ui/equalizer_band.glade:67
+msgid "Resonance"
+msgstr "Resonansi"
+
+#: data/ui/filter.glade:323
+msgid "Inertia"
+msgstr "Kelembaman"
+
+#: data/ui/equalizer.glade:24
+msgid "Equalizer"
+msgstr "Ekualiser"
+
+#: data/ui/equalizer.glade:129
+msgid "Split Channels"
+msgstr "Pisahkan Kanal"
+
+#: data/ui/equalizer.glade:155
+msgid "IIR"
+msgstr "IIR"
+
+#: data/ui/equalizer.glade:156
+msgid "FIR"
+msgstr "FIR"
+
+#: data/ui/equalizer.glade:157
+msgid "FFT"
+msgstr "FFT"
+
+#: data/ui/equalizer.glade:187
+msgid "Bands"
+msgstr "Jumlah Band"
+
+#: data/ui/equalizer.glade:209
+msgid "Flat Response"
+msgstr "Respons Datar"
+
+#: data/ui/equalizer.glade:224
+msgid "Calculate Frequencies"
+msgstr "Hitung Frekuensi"
+
+#: data/ui/equalizer.glade:238
+msgid "Reset Equalizer"
+msgstr "Atur Ulang Ekualiser"
+
+#: data/ui/equalizer_band.glade:60
+msgid "Off"
+msgstr "Mati"
+
+#: data/ui/equalizer_band.glade:61
+msgid "Bell"
+msgstr "Bell"
+
+#: data/ui/equalizer_band.glade:62
+#, fuzzy
+msgid "High Pass"
+msgstr "High Pass"
+
+#: data/ui/equalizer_band.glade:63
+msgid "High Shelf"
+msgstr "High Shelf"
+
+#: data/ui/equalizer_band.glade:64
+#, fuzzy
+msgid "Low Pass"
+msgstr "Pass Rendah"
+
+#: data/ui/equalizer_band.glade:65
+msgid "Low Shelf"
+msgstr "Low Shelf"
+
+#: data/ui/equalizer_band.glade:66
+msgid "Notch"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:91
+msgid "RLC (BT)"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:92
+msgid "RLC (MT)"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:93
+msgid "BWC (BT)"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:94
+msgid "BWC (MT)"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:95
+msgid "LRX (BT)"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:96
+msgid "LRX (MT)"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:97
+msgid "APO (DR)"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:109
+msgid "Slope"
+msgstr "Besar Lembah"
+
+#: data/ui/equalizer_band.glade:121
+msgid "x1"
+msgstr "Satu kali"
+
+#: data/ui/equalizer_band.glade:122
+msgid "x2"
+msgstr "2 Kali"
+
+#: data/ui/equalizer_band.glade:123
+msgid "x3"
+msgstr "Tiga Kali"
+
+#: data/ui/equalizer_band.glade:124
+msgid "x4"
+msgstr "Empat Kali"
+
+#: data/ui/equalizer_band.glade:201
+msgid "Quality"
+msgstr "Kualitas"
+
+#: data/ui/equalizer_band.glade:252
+msgid "Width"
+msgstr "Lebar"
+
+#: data/ui/equalizer_band.glade:314 data/ui/stereo_tools.glade:550
+#: data/ui/stereo_tools.glade:609 data/ui/crystalizer_band.glade:27
+msgid "Mute"
+msgstr "Bungkam"
+
+#: data/ui/equalizer_preset_row.glade:37 data/ui/irs_row.glade:59
+#: data/ui/preset_row.glade:51
+msgid "Apply"
+msgstr "Terapkan"
+
+#: data/ui/reverb.glade:64
+msgid "Reverberation"
+msgstr "Penggemaan"
+
+#: data/ui/reverb.glade:157
+msgid "Ambience"
+msgstr "Suasana"
+
+#: data/ui/reverb.glade:170
+msgid "Empty Walls"
+msgstr "Tembok Kosong"
+
+#: data/ui/reverb.glade:183
+msgid "Room"
+msgstr "Ruangan"
+
+#: data/ui/reverb.glade:196
+msgid "Large Empty Hall"
+msgstr "Aula Besar Kosong"
+
+#: data/ui/reverb.glade:222
+msgid "Large Occupied Hall"
+msgstr "Aula Besar Terisi Penuh"
+
+#: data/ui/reverb.glade:334
+msgid "Pre Delay"
+msgstr "Pra Tunda"
+
+#: data/ui/reverb.glade:347
+msgid "Decay Time"
+msgstr "Waktu Decay"
+
+#: data/ui/reverb.glade:380 data/ui/bass_enhancer.glade:242
+#: data/ui/exciter.glade:245
+msgid "Amount"
+msgstr "Besaran"
+
+#: data/ui/reverb.glade:412
+msgid "Dry"
+msgstr "Dry"
+
+#: data/ui/reverb.glade:444
+msgid "Bass Cut"
+msgstr "Potong Bass"
+
+#: data/ui/reverb.glade:495
+msgid "Treble Cut"
+msgstr "Potong Treble"
+
+#: data/ui/reverb.glade:538
+msgid "Diffusion"
+msgstr "Difusi"
+
+#: data/ui/reverb.glade:550
+msgid "Room Size"
+msgstr "Ukuran Ruangan"
+
+#: data/ui/reverb.glade:563
+msgid "Small"
+msgstr "Kecil"
+
+#: data/ui/reverb.glade:564
+msgid "Medium"
+msgstr "Sedang"
+
+#: data/ui/reverb.glade:565
+msgid "Large"
+msgstr "Besar"
+
+#: data/ui/reverb.glade:566
+msgid "Tunnel"
+msgstr "Terowongan"
+
+#: data/ui/reverb.glade:567
+msgid "Large/smooth"
+msgstr "Besar/Halus"
+
+#: data/ui/reverb.glade:568
+msgid "Experimental"
+msgstr "Eksperimental"
+
+#: data/ui/reverb.glade:581
+msgid "High Frequency Damping"
+msgstr "Pembasahan Frekuensi Tinggi"
+
+#: data/ui/bass_enhancer.glade:50
+msgid "Bass Enhancer"
+msgstr "Penguat Bass"
+
+#: data/ui/bass_enhancer.glade:186 data/ui/exciter.glade:187
+msgid "3rd"
+msgstr "Ketiga"
+
+#: data/ui/bass_enhancer.glade:198 data/ui/exciter.glade:199
+msgid "2nd"
+msgstr "Kedua"
+
+#: data/ui/bass_enhancer.glade:210 data/ui/exciter.glade:211
+msgid "Blend Harmonics"
+msgstr "Pencampuran Harmonik"
+
+#: data/ui/bass_enhancer.glade:254 data/ui/bass_enhancer.glade:386
+#: data/ui/exciter.glade:258 data/ui/exciter.glade:390
+msgid "Harmonics"
+msgstr "Harmonik"
+
+#: data/ui/bass_enhancer.glade:266 data/ui/exciter.glade:271
+msgid "Scope"
+msgstr "Frekuensi Target Bass"
+
+#: data/ui/bass_enhancer.glade:355
+msgid "Floor"
+msgstr "Monitor Lantai"
+
+#: data/ui/exciter.glade:50
+msgid "Exciter"
+msgstr "Penguat Frekuensi Tinggi"
+
+#: data/ui/exciter.glade:358 data/ui/maximizer.glade:159
+msgid "Ceiling"
+msgstr "Langit-langit"
+
+#: data/ui/stereo_tools.glade:42
+msgid "Stereo Tools"
+msgstr "Pengolah Stereo"
+
+#: data/ui/stereo_tools.glade:207
+msgid "Softclip"
+msgstr "Kliping Lunak"
+
+#: data/ui/stereo_tools.glade:231 data/ui/stereo_tools.glade:647
+msgid "Balance"
+msgstr "Keseimbangan"
+
+#: data/ui/stereo_tools.glade:263
+msgid "S/C Level"
+msgstr "Level Sisi/Tengah"
+
+#: data/ui/stereo_tools.glade:321
+msgid "Side Level"
+msgstr "Volume Kanal Sisi"
+
+#: data/ui/stereo_tools.glade:372
+msgid "Side Balance"
+msgstr "Keseimbangan Sisi"
+
+#: data/ui/stereo_tools.glade:404
+msgid "Middle Level"
+msgstr "Volume Kanal Tengah"
+
+#: data/ui/stereo_tools.glade:417
+msgid "Middle Panorama"
+msgstr "Panorama Kanal Tengah"
+
+#: data/ui/stereo_tools.glade:475
+msgid "LR > LR (Stereo Default)"
+msgstr "Kiri-Kanan > Kiri-Kanan (Stereo Standar)"
+
+#: data/ui/stereo_tools.glade:476
+msgid "LR > MS (Stereo to Mid-Side)"
+msgstr "Kiri-Kanan > Tengah (Stereo ke Sisi Tengah)"
+
+#: data/ui/stereo_tools.glade:477
+msgid "MS > LR (Mid-Side to Stereo)"
+msgstr "Tengah > Kiri-Kanan (Sisi Tengah ke Stereo)"
+
+#: data/ui/stereo_tools.glade:478
+msgid "LR > LL (Mono Left Channel)"
+msgstr "Kiri-Kanan > Kiri-Kiri (Kanal Kiri Mono)"
+
+#: data/ui/stereo_tools.glade:479
+msgid "LR > RR (Mono Right Channel)"
+msgstr "Kiri-Kanan > Kanan-kanan (Kanal Kanan Mono)"
+
+#: data/ui/stereo_tools.glade:480
+msgid "LR > L+R (Mono Sum L+R)"
+msgstr "Kiri-Kanan > Kiri+Kanan (Kiri Mono + Kanan Mono)"
+
+#: data/ui/stereo_tools.glade:481
+msgid "LR > RL (Stereo Flip Channels)"
+msgstr "Kiri-Kanan > Kanan-Kiri (Pembalikan Setereo)"
+
+#: data/ui/stereo_tools.glade:498
+msgid "Stereo Matrix"
+msgstr "Matriks Stereo"
+
+#: data/ui/stereo_tools.glade:537 data/ui/stereo_tools.glade:578
+msgid "Invert Phase"
+msgstr "Balikkan Phase"
+
+#: data/ui/stereo_tools.glade:679
+msgid "Delay L/R"
+msgstr "Penundaan Kiri/Kanan"
+
+#: data/ui/stereo_tools.glade:713
+msgid "Stereo Base"
+msgstr "Basis Stereo"
+
+#: data/ui/stereo_tools.glade:746
+msgid "Stereo Phase"
+msgstr "Phase Stereo"
+
+#: data/ui/crossfeed.glade:59
+msgid "Jmeier"
+msgstr "J. Meier"
+
+#: data/ui/crossfeed.glade:85
+msgid "Cmoy"
+msgstr "C. Moy"
+
+#: data/ui/crossfeed.glade:122
+msgid "Cutoff"
+msgstr "Frekuensi Potong"
+
+#: data/ui/crossfeed.glade:155
+msgid "Feed"
+msgstr "Volume Penyuapan"
+
+#: data/ui/crossfeed.glade:392
+msgid "Crossfeed"
+msgstr "Crossfeed"
+
+#: data/ui/maximizer.glade:29
+msgid "Maximizer"
+msgstr "Pemaksimal Gain"
+
+#: data/ui/maximizer.glade:269 data/ui/gate.glade:190
+msgid "Gain Reduction"
+msgstr "Pengurangan Kuatan"
+
+#: data/ui/loudness.glade:196
+msgid "Link"
+msgstr "Penautan"
+
+#: data/ui/gate.glade:31
+msgid "Gate"
+msgstr "Gate"
+
+#: data/ui/gate.glade:162 data/ui/deesser.glade:190
+msgid "Detection"
+msgstr "Deteksi"
+
+#: data/ui/gate.glade:176
+msgid "Stereo Link"
+msgstr "Penautan Stereo"
+
+#: data/ui/gate.glade:235
+msgid "Average"
+msgstr "Rata-Rata"
+
+#: data/ui/gate.glade:236
+msgid "Maximum"
+msgstr "Maksimal"
+
+#: data/ui/gate.glade:667 data/ui/multiband_gate.glade:766
+#: data/ui/multiband_gate.glade:1175 data/ui/multiband_gate.glade:1585
+#: data/ui/multiband_gate.glade:1995
+msgid "Gating"
+msgstr "Gating"
+
+#: data/ui/multiband_gate.glade:70
+msgid "Multiband Gate"
+msgstr "Multiband Gate"
+
+#: data/ui/multiband_gate.glade:722 data/ui/multiband_gate.glade:1152
+#: data/ui/multiband_gate.glade:1562 data/ui/multiband_gate.glade:1972
+#: data/ui/deesser.glade:748
+msgid "Reduction"
+msgstr "Pengurangan"
+
+#: data/ui/deesser.glade:61
+msgid "Deesser"
+msgstr "Penghilang Desis"
+
+#: data/ui/deesser.glade:232
+msgid "Wide"
+msgstr "Luas"
+
+#: data/ui/deesser.glade:233 data/ui/deesser.glade:262
+msgid "Split"
+msgstr "Pisah"
+
+#: data/ui/deesser.glade:381
+msgid "Level"
+msgstr "Level"
+
+#: data/ui/deesser.glade:394
+msgid "Peak Q"
+msgstr "Peak Q"
+
+#: data/ui/deesser.glade:426
+msgid "Laxity"
+msgstr "Laksitas"
+
+#: data/ui/deesser.glade:761
+msgid "Detected"
+msgstr "Terlacak"
+
+#: data/ui/convolver.glade:24
+msgid "Convolver"
+msgstr "Konvolver"
+
+#: data/ui/convolver.glade:101
+msgid "Import Impulse"
+msgstr "Muat Impuls"
+
+#: data/ui/convolver.glade:105
+msgid "Import Impulse Response File"
+msgstr "Muat Berkas Respons Impuls"
+
+#: data/ui/convolver.glade:221
+msgid "L"
+msgstr "Kiri"
+
+#: data/ui/convolver.glade:235
+msgid "R"
+msgstr "Kanan"
+
+#: data/ui/convolver.glade:298
+msgid "Duration"
+msgstr "Durasi"
+
+#: data/ui/convolver.glade:309
+msgid "Samples"
+msgstr "Jumlah Sampel"
+
+#: data/ui/convolver.glade:342 src/convolver_ui.cpp:251
+msgid "Impulse Response"
+msgstr "Respons Impuls"
+
+#: data/ui/convolver.glade:362
+msgid "Select the impulse Response File"
+msgstr "Pilih Berkas Repons Impuls"
+
+#: data/ui/convolver.glade:382 src/spectrum_settings_ui.cpp:143
+msgid "Spectrum"
+msgstr "Spektrum"
+
+#: data/ui/convolver.glade:423
+msgid "Stereo Width"
+msgstr "Lebar Stereo"
+
+#: data/ui/crystalizer.glade:48
+msgid "Crystalizer"
+msgstr "Pengkristal Suara"
+
+#: data/ui/crystalizer.glade:161
+#, fuzzy
+msgid "Aggressive Mode"
+msgstr "Modus Agresif"
+
+#: data/ui/crystalizer.glade:420
+#, fuzzy
+msgid "Loudness Range"
+msgstr "Rentang Kelantangan"
+
+#: data/ui/crystalizer.glade:439
+msgid "Before"
+msgstr "Sebelum"
+
+#: data/ui/crystalizer.glade:452
+msgid "After"
+msgstr "Sesudah"
+
+#: data/ui/pitch.glade:36
+msgid "Pitch"
+msgstr "Nada"
+
+#: data/ui/pitch.glade:142
+msgid "Faster"
+msgstr "Lebih Cepat"
+
+#: data/ui/pitch.glade:156
+msgid "Preserve Formant"
+msgstr "Jaga Bentuk"
+
+#: data/ui/pitch.glade:180
+msgid "Cents"
+msgstr "Sen"
+
+#: data/ui/pitch.glade:211
+msgid "Semitones"
+msgstr "Seminada"
+
+#: data/ui/pitch.glade:242
+msgid "Octaves"
+msgstr "Oktav"
+
+#: data/ui/pitch.glade:273
+msgid "Crispness"
+msgstr "Kerenyahan"
+
+#: data/ui/webrtc.glade:30
+msgid "Webrtc"
+msgstr "Webrtc"
+
+#: data/ui/webrtc.glade:137 data/ui/webrtc.glade:257 data/ui/webrtc.glade:327
+#: data/ui/webrtc.glade:496
+msgid "Enable"
+msgstr "Hidupkan"
+
+#: data/ui/webrtc.glade:158
+msgid "Extended Filter"
+msgstr "Filter Diperluas"
+
+#: data/ui/webrtc.glade:171
+msgid "Delay Agnostic"
+msgstr "Penundaan Agnosti"
+
+#: data/ui/webrtc.glade:183
+msgid "High Pass Filter"
+msgstr "Filter High Pass"
+
+#: data/ui/webrtc.glade:212 data/ui/webrtc.glade:280
+msgid "Suppresion Level"
+msgstr "Tingkat Supresi"
+
+#: data/ui/webrtc.glade:225 data/ui/webrtc.glade:293 data/ui/webrtc.glade:548
+msgid "Low"
+msgstr "Rendah"
+
+#: data/ui/webrtc.glade:226 data/ui/webrtc.glade:294 data/ui/webrtc.glade:549
+msgid "Moderate"
+msgstr "Sedang"
+
+#: data/ui/webrtc.glade:227 data/ui/webrtc.glade:295 data/ui/webrtc.glade:550
+msgid "High"
+msgstr "Tinggi"
+
+#: data/ui/webrtc.glade:244
+msgid "Echo Canceller"
+msgstr "Penghilang Gema"
+
+#: data/ui/webrtc.glade:296
+msgid "Very High"
+msgstr "Sangat Tinggi"
+
+#: data/ui/webrtc.glade:313
+msgid "Noise Suppressor"
+msgstr "Supresor Derau"
+
+#: data/ui/webrtc.glade:363
+msgid "Adaptive Digital"
+msgstr "Digital Adaptif"
+
+#: data/ui/webrtc.glade:364
+msgid "Fixed Digital"
+msgstr "Digital Tetap"
+
+#: data/ui/webrtc.glade:381
+msgid "Gain Controller"
+msgstr "Pengatur Angkatan"
+
+#: data/ui/webrtc.glade:419
+msgid "Target Level"
+msgstr "Target Tingkat"
+
+#: data/ui/webrtc.glade:448
+msgid "Maximum Gain"
+msgstr "Angkatan Maksimal"
+
+#: data/ui/webrtc.glade:521
+msgid "Detection Likelihood"
+msgstr "Lacak Keberadaan Vokal"
+
+#: data/ui/webrtc.glade:534
+msgid "Frame Size"
+msgstr "Ukuran Bingkai"
+
+#: data/ui/webrtc.glade:547
+msgid "Very Low"
+msgstr "Sangat Rendah"
+
+#: data/ui/webrtc.glade:584
+msgid "Voice Detector"
+msgstr "Pelacak Vokal"
+
+#: data/ui/delay.glade:24
+#, fuzzy
+msgid "Delay"
+msgstr "Penundaan"
+
+#: data/ui/preset_row.glade:68
+msgid "Save current settings to this preset file"
+msgstr "Simpan Setelan Saat Ini Ke Berkas Preset"
+
+#: data/ui/preset_row.glade:84
+msgid "Remove this preset file"
+msgstr "Hapus Berkas Preset Ini"
+
+#: data/ui/preset_row.glade:100
+msgid ""
+"Automatically apply this preset whenever the currently used device is "
+"plugged in the system"
+msgstr ""
+
+#: data/ui/presets_menu.glade:86 data/ui/presets_menu.glade:195
+#: src/presets_menu_ui.cpp:110
+msgid "Import Presets"
+msgstr "Muat Preset"
+
+#: data/ui/calibration_signals.glade:64
+msgid "Volume"
+msgstr "Volume"
+
+#: data/ui/calibration_signals.glade:108
+msgid "Sine"
+msgstr "Sinus"
+
+#: data/ui/calibration_signals.glade:109
+msgid "Square"
+msgstr "Kotak"
+
+#: data/ui/calibration_signals.glade:110
+msgid "Saw"
+msgstr "Gergaji"
+
+#: data/ui/calibration_signals.glade:111
+msgid "Triangle"
+msgstr "Segitiga"
+
+#: data/ui/calibration_signals.glade:112
+msgid "Silence"
+msgstr "Diam"
+
+#: data/ui/calibration_signals.glade:113
+msgid "White Noise"
+msgstr "Derau Putih"
+
+#: data/ui/calibration_signals.glade:114
+msgid "Pink Noise"
+msgstr "Derau Merah Muda"
+
+#: data/ui/calibration_signals.glade:115
+msgid "Sine Table"
+msgstr "Tabel Sinus"
+
+#: data/ui/calibration_signals.glade:116
+msgid "Ticks"
+msgstr "Ketukan per Detik"
+
+#: data/ui/calibration_signals.glade:117
+msgid "Gaussian Noise"
+msgstr "Derau Gaussia"
+
+#: data/ui/calibration_signals.glade:118
+msgid "Red Noise"
+msgstr "Derau Merah"
+
+#: data/ui/calibration_signals.glade:119
+msgid "Blue Noise"
+msgstr "Derau Biru"
+
+#: data/ui/calibration_signals.glade:120
+msgid "Violet Noise"
+msgstr "Derau Ungu"
+
+#: data/ui/calibration_mic.glade:29
+msgid "Window"
+msgstr "Jendela"
+
+#: data/ui/calibration_mic.glade:70
+msgid "Measure Noise"
+msgstr "Ukur Derau"
+
+#: data/ui/calibration_mic.glade:99
+msgid "Subtract Noise"
+msgstr "Kurangi Derau"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:8
+#: data/com.github.wwmm.pulseeffects.desktop.in:5
+msgid "Audio Effects for PulseAudio Applications"
+msgstr "Penerap Efek Suara untuk Aplikasi Berbasis Pulseaudio"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:9
+msgid "Wellington Wallace"
+msgstr "Wellington Wallace"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:11
+msgid ""
+"PulseEffects is an advanced audio manipulation tools. It includes an "
+"equalizer, limiter, compressor and a reverberation tool, just to mention a "
+"few. To complement this there is also a built in spectrum analyzer."
+msgstr ""
+"PulseEffects merupakan aplikasi pengubah efek suara. Berisi modul-modul "
+"seperti ekualiser, pembatas, kompresor, dan modul penggema. Dilengkapi juga "
+"dengan Penganalisis Spektrum untuk memantau efek yang diterapkan."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:16
+msgid ""
+"Because PulseEffects uses the default PulseAudio sound server it will work "
+"with most, if not all, applications you use. All supported applications are "
+"presented in the main window, where each can be enabled individually."
+msgstr ""
+"PulseEffects bekerja dengan aplikasi berbasis PulseAudio. Aplikasi yang "
+"mendukung PulseEffects akan ditampilkan pada jendela utama aplikasi."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:22
+msgid ""
+"Besides manipulating sound output, PulseEffects is able to apply effects to "
+"an input device, such as a microphone. This is, for example, useful in audio "
+"recording, but it also works well during voice conversations."
+msgstr ""
+"Selain mengolah suara yang keluar, PulseEffects dapat mengolah efek suara "
+"seperti pada mikrofon dan pengakat masukan lainnya. PulseEffects juga "
+"bekerja dengan baik ketika dipakai dalam percakapan suara."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:27
+msgid ""
+"When PulseEffects is launched it will conveniently remember the "
+"configuration used in the last session. It is also possible to save all the "
+"current settings as profiles."
+msgstr ""
+"Ketika PulseEffects dijalankan, preset terakhir yang dipakai akan termuat "
+"otomatis. Anda juga dapat menyimpan pengaturan yang telah dibuat ke dalam "
+"profil tersendiri."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:40
+msgid "Set the volume and turn on/off effects"
+msgstr "Atur Volume dan hidupkan/matikan Efek"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:44
+msgid "Includes an equalizer with built-in presets"
+msgstr "Dilengkapi dengan Ekualiser dengan Preset Bawaan"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:48
+msgid "Input Limiter"
+msgstr "Pembatas Masukan"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:56
+msgid "Calibration"
+msgstr "Kalibrasi"
+
+#: data/com.github.wwmm.pulseeffects.desktop.in:4
+msgid "Equalizer, Compressor and Other Audio Effects"
+msgstr "Equalizer, Compressor and Other Audio Effects"
+
+#: data/com.github.wwmm.pulseeffects.desktop.in:6
+msgid "limiter;compressor;reverberation;equalizer;autovolume;"
+msgstr "limiter;compressor;reverberation;equalizer;autovolume;"
+
+#. Translators: This is an icon name, don't translate!
+#: data/com.github.wwmm.pulseeffects.desktop.in:10
+msgid "pulseeffects"
+msgstr "pulseeffects"
+
+#: data/schemas/com.github.wwmm.pulseeffects.gschema.xml:201
+msgid "\"Presets\""
+msgstr "Preset"
+
+#: src/application.cpp:19
+msgid "Quit PulseEffects. Useful when running in service mode."
+msgstr "Tutup PulseEffects. Berguna Ketika Berjalan dalam Modus Layanan."
+
+#: src/application.cpp:21
+msgid "Show available presets."
+msgstr "Tampilkan Preset Tersedia."
+
+#: src/application.cpp:24
+msgid "Load a preset. Example: pulseeffects -l music"
+msgstr "Muat Preset. Misalkan: pulseeffects -l music"
+
+#: src/application.cpp:26
+msgid "Reset PulseEffects."
+msgstr "Atur Ulang PulseEffects"
+
+#: src/application.cpp:233
+#, fuzzy
+msgid "Output Presets: "
+msgstr "Preset Output:"
+
+#: src/application.cpp:241
+#, fuzzy
+msgid "Input Presets: "
+msgstr "Preset Input"
+
+#: src/effects_base_ui.cpp:27
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: src/blacklist_settings_ui.cpp:71
+msgid "Blacklist"
+msgstr "Daftar Blokir"
+
+#: src/general_settings_ui.cpp:121
+msgid "General"
+msgstr "Umum"
+
+#: src/pulse_settings_ui.cpp:138
+msgid "Pulseaudio"
+msgstr "Pulseaudio"
+
+#: src/presets_menu_ui.cpp:111 src/convolver_ui.cpp:247
+msgid "Open"
+msgstr "Buka"
+
+#: src/presets_menu_ui.cpp:111 src/convolver_ui.cpp:247
+msgid "Cancel"
+msgstr "Batal"
+
+#: src/app_info_ui.cpp:85
+msgid "paused"
+msgstr "terjeda"
+
+#: src/app_info_ui.cpp:87
+msgid "playing"
+msgstr "memutar"
+
+#: src/calibration_ui.cpp:171
+msgid "Calibration Microphone"
+msgstr "Kalibrasikan Mikrofon"
+
+#: src/convolver_ui.cpp:246
+msgid "Import Impulse File"
+msgstr "Muat Berkas Impuls"
+
+#: src/convolver_ui.cpp:290 src/convolver_ui.cpp:291 src/convolver_ui.cpp:293
+msgid "Failed"
+msgstr "Gagal"
+
+#: src/convolver_ui.cpp:295
+msgid "Could Not Load The Impulse File"
+msgstr "Tidak dapat Memuat Berkas Impuls"
+
+#: src/equalizer_ui.cpp:307 src/equalizer_ui.cpp:426
+msgid "infinity"
+msgstr "Tak Terbatas"
+
+#~ msgid "PulseEffects was updated"
+#~ msgstr "PulseEffects telah dimutakhirkan"
+
+#~ msgid ""
+#~ "It is recommended to reset its configuration after an update. Do you want "
+#~ "to do this?"
+#~ msgstr ""
+#~ "Dianjurkan untuk mengatur ulang konfigurasi setelah pemutakhiran. Tetap "
+#~ "Lanjutkan?"
+
+#~ msgid "Yes"
+#~ msgstr "Ya"
+
+#~ msgid "No"
+#~ msgstr "Tidak"
+
+#, fuzzy
+#~ msgid "Intensities"
+#~ msgstr "Intensitas"
+
+#, fuzzy
+#~ msgid "Split 0/1"
+#~ msgstr "Split 0/1"
+
+#, fuzzy
+#~ msgid "Band 0"
+#~ msgstr "Band 0"
+
+#, fuzzy
+#~ msgid "Band 2"
+#~ msgstr "Band 2"
+
+#, fuzzy
+#~ msgid "Band 3"
+#~ msgstr "Band 3"
+
+#, fuzzy
+#~ msgid "Band 1"
+#~ msgstr "Band 1"
+
+#, fuzzy
+#~ msgid "Band 4"
+#~ msgstr "Band 4"
+
+#~ msgid "Vocal Leveller 1"
+#~ msgstr "Penguat Suara 1"
+
+#~ msgid "Vocal Leveller 2"
+#~ msgstr "Penguat Suara 2"
+
+#~ msgid "Mix"
+#~ msgstr "Mix Dry/Wet"
+
+#~ msgid "Show"
+#~ msgstr "Tampilkan"
+
+#~ msgid "Enable All Applications"
+#~ msgstr "Terapkan Efek pada Semua Aplikasi"
+
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgid "Filter Type"
+#~ msgstr "Jenis Filter"
+
+#, fuzzy
+#~ msgid "Lower Frequencies"
+#~ msgstr "Frekuensi Terendah"
+
+#, fuzzy
+#~ msgid "Higher Frequencies"
+#~ msgstr "Frekuensi Tinggi"
+
+#~ msgid "Audio Effects for Pulseaudio Applications"
+#~ msgstr "Penerap Efek untuk Aplikasi Berbasis Pulseaudio"
